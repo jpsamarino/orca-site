@@ -1,0 +1,34 @@
+.statistics {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  /* height: 70vh; */
+  background-image: url("../img/background-mini-1.png");
+  background-size: 150px;
+  background-position: center;
+  background-repeat: repeat;
+  padding-bottom: 4rem;
+}
+.statistics__title {
+  color: var(--text-logo);
+  font-family: "Archivo Black";
+  font-size: 64px;
+  font-weight: 600;
+  text-align: center;
+  margin: 3rem;
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
+    1px 1px 0 #fff;
+}
+.statistics__card {
+  display: block;
+  background: var(--background-dark);
+  color: var(--text-light);
+  font-size: 40px;
+  text-align: center;
+  max-width: 950px;
+  width: 90%;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 0.8rem;
+}
